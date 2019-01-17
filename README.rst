@@ -1,5 +1,9 @@
-This repository contains various tools which are helpful when
-communicating with OS2MO.
+This repository contains an integration between OS2MO and
+OS2Rollekataloget. It contains a single Python package, and installing
+this Python package will create an executable called
+``OS2Rollekataloget_integration``. This executable will export the whole
+organization from OS2MO, providing the correct user IDs for integration
+with the AD federation.
 
 
 License and Copyright
