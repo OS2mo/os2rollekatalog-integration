@@ -2,8 +2,8 @@ This repository contains various tools which are helpful when
 communicating with OS2MO.
 
 
-Licens og Copyright
--------------------
+License and Copyright
+---------------------
 
 Copyright (c) 2018, Magenta ApS.
 
