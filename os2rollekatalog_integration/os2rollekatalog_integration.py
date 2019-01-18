@@ -18,12 +18,12 @@ AD_SYSTEM_NAME = "Active Directory"
 def get_user_id(employee):
     for system in employee.it:
         if system['itsystem']['name'] == AD_SYSTEM_NAME:
-            print(system['user_key'])
             return system['user_key']
 
 
 def get_title(employee):
     for e in employee.engagement:
+        # TODO: Change this when we have a preferred engagement.
         return e['job_function']['name']
 
 
