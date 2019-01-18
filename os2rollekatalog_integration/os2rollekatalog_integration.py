@@ -38,7 +38,7 @@ def get_orgunit_structure(ou_uuid):
 
     Retrieve the info for current unit and recursively for children.
     """
-    ou = mo_api.MOOrgUnit(ou_uuid)
+    ou = mo_api.OrgUnit(ou_uuid)
     engagements = ou.engagement
     name = ou.json['name']
 
@@ -46,7 +46,7 @@ def get_orgunit_structure(ou_uuid):
     for e in engagements:
         employee_name = e['person']['name']
         employee_uuid = e['person']['uuid']
-        employee = mo_api.MOEmployee(e['person']['uuid'])
+        employee = mo_api.Employee(e['person']['uuid'])
 
         user_id = get_user_id(employee)
         title = get_title(employee)
