@@ -1,1 +1,5 @@
 os2mo_tools/__pycache__/
+build/
+dist/
+os2rollekatalog_integration.egg-info/
+

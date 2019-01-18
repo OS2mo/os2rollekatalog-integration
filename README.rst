@@ -1,3 +1,6 @@
+About the OS2Rollekataloget Integration
+=======================================
+
 This repository contains an integration between OS2MO and
 OS2Rollekataloget. It contains a single Python package, and installing
 this Python package will create an executable called
@@ -9,7 +12,7 @@ with the AD federation.
 License and Copyright
 ---------------------
 
-Copyright (c) 2018, Magenta ApS.
+Copyright (c) 2019, Magenta ApS.
 
 OS2MO Tools is free software and may be used, studied, modified and shared
 under the terms of `Mozilla Public License, version 2.0

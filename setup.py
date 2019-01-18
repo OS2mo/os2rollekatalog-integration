@@ -17,6 +17,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         'os2mo-tools',
+        'requests>=2.21.0',
     ],
     dependency_links=['https://github.com/OS2mo/os2mo-tools/tarball/master#egg=os2mo-tools-0.1'],
     entry_points={
