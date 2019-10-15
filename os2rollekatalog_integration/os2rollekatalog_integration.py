@@ -9,10 +9,7 @@ import requests
 
 from os2mo_tools import mo_api
 
-
-ROOT_ORG_UNIT = '97337de5-6096-41f9-921e-5bed7a140d85'
-ROLLE_KATALOG_URL = "https://192.168.122.193:8090/api/organisation"
-AD_SYSTEM_NAME = "Active Directory"
+from .config import ROOT_ORG_UNIT, ROLLE_KATALOG_URL, AD_SYSTEM_NAME
 
 
 def get_user_id(employee):
