@@ -1,35 +1,16 @@
-#
-# Copyright (c) 2019, Magenta ApS
-#
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
-#
+from distutils.core import setup
 
-import setuptools
-
-setuptools.setup(
-    name='os2rollekatalog_integration',
-    version='0.1',
-    description='Tool for integrating OS2MO with OS2Rollekatalog',
+setup(
+    name='os2rollekatalog-integration',
+    version='0.1.0',
+    packages=[''],
+    url='',
+    license='',
     author='Magenta ApS',
-    author_email='info@magenta.dk',
-    packages=setuptools.find_packages(),
+    author_email='',
+    description='',
     install_requires=[
-        'os2mo-tools',
-        'requests>=2.21.0',
-    ],
-    dependency_links=['https://github.com/OS2mo/os2mo-tools/tarball/master#egg=os2mo-tools-0.1'],
-    entry_points={
-        # -*- Entry points: -*-
-        'console_scripts': [
-            'os2rollekatalog_integration=os2rollekatalog_integration.os2rollekatalog_integration:main',
-        ],
-    },
-
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MPL 2.0",
-        "Operating System :: OS Independent",
+        'requests',
+        'os2mo-tools @ git+https://github.com/OS2mo/os2mo-tools.git@0.2.0'
     ]
 )
