@@ -1,0 +1,2 @@
+os2mo-tools @ git+https://github.com/OS2mo/os2mo-tools.git@0.2.0#egg=os2mo-tools
+requests>=2.21.0
